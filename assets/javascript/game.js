@@ -90,7 +90,7 @@ var commonFunction = {
         gameStats.life--;
     },
     winEvent: function(){
-        alert("you win");
+        alert("you win and the word is " + gameStats.computerWord);
         commonFunction.gameStatsReset();
         commonFunction.initialization();
     },
